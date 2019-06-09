@@ -1,0 +1,268 @@
+body{
+background:#E5E4E2;
+background-size: 100%;
+}
+
+
+
+
+body{
+    height:100%;
+    width:100%;
+    background-image:  url("../images/bambiBeach.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 500px;
+    
+}
+
+.companyName{
+    font-family: 'Oleo Script', cursive;
+    font-size: 36px;
+}
+
+.companyName2{
+    font-family: 'Oleo Script', cursive;
+    font-size: 36px;
+    margin-left: 150px
+}
+
+.gallery img{
+    width: 230px;
+    padding :5px;
+    filter:grayscale(100%);
+    transition: 1s;
+
+}
+
+.gallery img:hover{
+filter: grayscale(0);
+transform: scale(1.1)
+}
+
+.owner{
+    width: 174px;
+    height: 234px;
+  
+}
+
+/* .ownerPic{
+    width: 300px;
+    height: 400 px;
+} */
+
+#travelGallery{
+   
+    margin-top: 3%;
+   
+   margin-left: 650px
+}
+
+.galleryName{
+    margin-left: 70px
+}
+
+
+.clickme{
+   background: #E5E4E2;
+    width: 100%;
+    height: 50px;        
+}
+
+.clickme a:hover{
+    color: red;
+}
+
+#name{
+    background-color: black;
+    width: 15%;
+     color:lightgrey;
+     float:left;
+     font-size: 30px;
+     margin-left: 5%;
+     padding-bottom: .5%;
+     padding-top: .5%;
+}
+
+#about{
+    
+    width:3.5%;
+    float:right;
+    margin-top: 1.5%;
+    border-right: solid grey;
+   
+}
+
+#portfolio{
+    
+    width:6%;
+    float:right;
+    border-right: solid grey;
+    margin-top: 1.5%;
+    padding-left: 4px;
+}   
+.clickme a:hover{
+    color: red;
+}
+#contact{
+    
+    width:6%;
+    float: right;
+    margin-top: 1.5%;
+    padding-left: 4px;
+}
+
+#big-box{
+    clear: both;
+    margin-left: 0%;
+    background: darkslateblue;
+    width: 1575px;
+    height:740px;
+    position:relative;
+}
+
+.aboutMessage{
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-left: 100px;
+    margin-right: 700px;
+    margin-top: 40px;
+}
+
+.companyName3{
+    font-family: 'Oleo Script', cursive;
+    font-size: 36px;
+}
+
+.signature{
+    font-size: 36px;
+    font-weight: 650;
+    font-family: 'Pinyon Script', cursive;
+}
+
+
+.bookNow{
+    
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    display:table-cell ;
+    height: 150px;
+    width: 150px;
+    background: #87CEEB;
+   
+}
+
+.buttonDiv{
+   
+float: left;
+margin-top: 115px;
+margin-left: 100px
+
+
+}
+
+.bookNow{
+	background:#87CEEB;
+	padding:5px 10px;
+	color:#fff;
+	border:none;
+	border-radius:5px;
+	
+	animation-name: flash;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+
+	/* //Firefox 1+ */
+	-webkit-animation-name: flash;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+
+	/* //Safari 3-4 */
+	-moz-animation-name: flash;
+	-moz-animation-duration: 1s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
+}
+
+@keyframes flash {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1.0; }
+}
+
+/* //Firefox 1+ */
+@-webkit-keyframes flash {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1.0; }
+}
+/* 
+//Safari 3-4 */
+@-moz-keyframes flash {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1.0; }
+}
+
+
+.nameInfo{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+
+}
+
+.owner2{
+    
+    width: 225px;
+    height: 300px;
+  
+}
+
+.ownerPic2{
+    text-align: center;
+}
+
+
+.trips{
+    width: 225px;
+    height: 300px;
+     
+}
+
+.life{
+margin-top: 460px;
+margin-left: 200px;
+    float: left;
+    position: absolute;
+
+}
+
+.discover{
+    margin-top: 160px;
+    margin-right: 200px;
+        float: right
+    }
+
+.wicked{
+position: relative;
+top: 675px;
+left: 650px;
+
+}
+.pool1{
+position: relative;
+top: 600px;
+left: 200px;
+}
+
+.pool2{
+    float: right;
+position: relative;
+top:300px;
+
+right: -220px
+}
