@@ -18,13 +18,11 @@ body{
 .companyName{
     font-family: 'Oleo Script', cursive;
     font-size: 36px;
+    padding-top: 10px;
+    margin-left: 15px
 }
 
-.companyName2{
-    font-family: 'Oleo Script', cursive;
-    font-size: 36px;
-    margin-left: 150px
-}
+
 
 .gallery img{
     width: 230px;
@@ -39,22 +37,35 @@ filter: grayscale(0);
 transform: scale(1.1)
 }
 
+.logo{
+float: right;
+margin-right: 30px ;
+}
+
+
 .owner{
+    margin-left: 105px;
     width: 174px;
     height: 234px;
   
 }
 
-/* .ownerPic{
+.ownerInfo{
+clear: both;
+    margin-left: 105px
+}
+
+.ownerPic{
+    float: left;
     width: 300px;
-    height: 400 px;
-} */
+    height: 300 px;
+}
 
 #travelGallery{
-   
-    margin-top: 3%;
-   
-   margin-left: 650px
+   float: left;
+    margin-top: 2%;
+   margin-left: 250px
+ 
 }
 
 .galleryName{
@@ -85,20 +96,36 @@ transform: scale(1.1)
 
 #about{
     
-    width:3.5%;
+    width:4%;
+    float:right;
+    margin-top: 1.5%;
+    border-right: solid grey;
+    padding-left: 4px;
+    padding-right: 10px;
+}
+
+#home{
+    
+    width:3%;
     float:right;
     margin-top: 1.5%;
     border-right: solid grey;
    
+    padding-right: 4px;
 }
 
-#portfolio{
+
+
+
+
+#trips{
     
-    width:6%;
+    width:5%;
     float:right;
     border-right: solid grey;
     margin-top: 1.5%;
     padding-left: 4px;
+
 }   
 .clickme a:hover{
     color: red;
@@ -109,6 +136,7 @@ transform: scale(1.1)
     float: right;
     margin-top: 1.5%;
     padding-left: 4px;
+    margin-right: 300px;
 }
 
 #big-box{
@@ -157,7 +185,7 @@ transform: scale(1.1)
    
 float: left;
 margin-top: 115px;
-margin-left: 100px
+margin-left: 200px
 
 
 }
@@ -205,6 +233,13 @@ margin-left: 100px
     0% { opacity: 1.0; }
     50% { opacity: 0.5; }
     100% { opacity: 1.0; }
+}
+
+.usefulLinks{
+    float: left;
+    margin-left: 250px;
+    margin-top: 2%;
+    line-height: 30px;
 }
 
 
