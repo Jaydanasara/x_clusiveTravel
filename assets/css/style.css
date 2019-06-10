@@ -37,10 +37,7 @@ filter: grayscale(0);
 transform: scale(1.1)
 }
 
-.logo{
-float: right;
-margin-right: 30px ;
-}
+
 
 
 .owner{
@@ -63,7 +60,7 @@ clear: both;
 
 #travelGallery{
    float: left;
-    margin-top: 2%;
+    margin-top: 4%;
    margin-left: 250px
  
 }
@@ -139,14 +136,6 @@ clear: both;
     margin-right: 300px;
 }
 
-#big-box{
-    clear: both;
-    margin-left: 0%;
-    background: darkslateblue;
-    width: 1575px;
-    height:740px;
-    position:relative;
-}
 
 .aboutMessage{
     font-size: 14px;
@@ -184,7 +173,7 @@ clear: both;
 .buttonDiv{
    
 float: left;
-margin-top: 115px;
+margin-top: 70px;
 margin-left: 200px
 
 
@@ -238,7 +227,7 @@ margin-left: 200px
 .usefulLinks{
     float: left;
     margin-left: 250px;
-    margin-top: 2%;
+    margin-top: 4%;
     line-height: 30px;
 }
 
