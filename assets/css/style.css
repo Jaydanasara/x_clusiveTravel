@@ -66,7 +66,12 @@ clear: both;
 }
 
 .galleryName{
-    margin-left: 70px
+    margin-left: 70px;
+    
+}
+
+.galleryText{
+    font-family: 'Oleo Script', cursive;
 }
 
 
@@ -136,7 +141,10 @@ clear: both;
     margin-right: 300px;
 }
 
+.contactInfo{
 
+    margin-right: 300px
+}
 .aboutMessage{
     font-size: 14px;
     line-height: 30px;
@@ -159,7 +167,7 @@ clear: both;
 
 
 .bookNow{
-    
+    font-family: 'Oleo Script', cursive;
     border-radius: 5px;
     text-align: center;
     vertical-align: middle;
@@ -169,14 +177,22 @@ clear: both;
     background: #87CEEB;
    
 }
-
+.book{
+    font-family: 'Oleo Script', cursive; 
+}
 .buttonDiv{
    
 float: left;
 margin-top: 70px;
 margin-left: 200px
+}
+.hotDeals{
+    font-family: 'Oleo Script', cursive; 
+}
 
+.clickHere1{
 
+    font-family: 'Oleo Script', cursive; 
 }
 
 .bookNow{
@@ -229,7 +245,18 @@ margin-left: 200px
     margin-left: 250px;
     margin-top: 4%;
     line-height: 30px;
+    font-family: 'Oleo Script', cursive;
 }
+
+.clickHere{
+    text-align: center;
+}
+
+.planning{
+
+    font-family: 'Oleo Script', cursive;
+}
+
 
 
 .nameInfo{
@@ -257,36 +284,39 @@ margin-left: 200px
      
 }
 
+.tripPics{
+margin-top: 300px;
+
+}
+
 .life{
-margin-top: 460px;
-margin-left: 200px;
     float: left;
-    position: absolute;
+margin-left: 250px
 
 }
 
 .discover{
-    margin-top: 160px;
-    margin-right: 250px;
-        float: right
+    float: right;
+   margin-right: 250px
     }
 
 .wicked{
+text-align: center;
 position: relative;
-top: 675px;
-left: 650px;
-
+top:220px;
 }
 .pool1{
-position: relative;
-top: 600px;
-left: 200px;
+margin-left: 250px;
+margin-top: 150px;
+float: left;
+
 }
 
 .pool2{
-    float: right;
-position: relative;
-top:300px;
+margin-right: 250px;
+float: right;
+margin-top: 150px;
 
-right: -230px
+    
+
 }
