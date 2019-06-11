@@ -24,13 +24,7 @@ body{
 
 
 
-.gallery img{
-    width: 230px;
-    padding :5px;
-    filter:grayscale(100%);
-    transition: 1s;
 
-}
 
 .gallery img:hover{
 filter: grayscale(0);
@@ -52,7 +46,7 @@ transform: scale(1.1)
     height: 300 px;
 clear: both;
 text-align: center;
-font-family: 'Oleo Script', cursive;
+font-size: 14px;
     margin-left: 105px;
 }
 
@@ -65,16 +59,17 @@ font-family: 'Oleo Script', cursive;
 #travelGallery{
    float: left;
     margin-top: 4%;
-   margin-left: 250px
+   margin-left: 250px;
  
 }
 
 .galleryName{
-    margin-left: 70px;
-    
+   
+    text-align: center
 }
 
 .galleryText{
+    
     font-family: 'Oleo Script', cursive;
 }
 
@@ -89,16 +84,7 @@ font-family: 'Oleo Script', cursive;
     color: red;
 }
 
-#name{
-    background-color: black;
-    width: 15%;
-     color:lightgrey;
-     float:left;
-     font-size: 30px;
-     margin-left: 5%;
-     padding-bottom: .5%;
-     padding-top: .5%;
-}
+
 
 #about{
     
@@ -183,6 +169,7 @@ font-family: 'Oleo Script', cursive;
 }
 .book{
     font-family: 'Oleo Script', cursive; 
+    text-align: center
 }
 .buttonDiv{
    
@@ -255,7 +242,7 @@ margin-left: 200px
 }
 
 .clickHere{
-    text-align: center;
+    
 }
 
 .planning{
@@ -295,6 +282,24 @@ margin-top: 300px;
 
 }
 
+.companyTrip{
+    font-family: 'Oleo Script', cursive;
+    font-size: 40px;
+    padding-top: 10px;
+    margin-left: 15px
+}
+
+
+.tripLogo img{
+    width: 300px;
+    height: 226px;
+    
+    }
+
+.upcominEvents{
+text-align: center;
+    }
+
 .life{
     float: left;
 margin-left: 250px
@@ -324,5 +329,249 @@ float: right;
 margin-top: 150px;
 
     
+
+}
+
+
+
+@media screen and (max-width:768px){
+    #contact{
+        width:6%;
+    float: right;
+    margin-top: 1.5%;
+    padding-left: 2px;
+    margin-right: 0px;
+        
+    }
+  #trips{
+  
+  }
+ #about{
+  
+    
+        width:60px;
+        margin-left: 50px;
+        float: none;
+        margin-top: 1.5%;
+        border-right: none;
+        padding-left: 0;
+        padding-right: 0px;
+    
+
+ }
+#home{
+    float: left;
+height: 16px;
+width:50px;
+padding-right: 0px;
+    margin-top: 0px;
+   
+    border-right: none
+   ;
+}
+    
+    
+    
+
+
+
+
+
+
+
+    body{
+        width:350px;
+
+
+  height:640px;
+    
+  
+    background-size: 350px 300px;
+
+
+    }
+
+.clickme{
+    width: 343px;
+}
+.Nav{
+
+    width: 343px;
+}
+
+
+.companyName{
+    font-family: 'Oleo Script', cursive;
+    font-size: 18px;
+    padding-top: 5px;
+    margin-left: 1px
+}
+
+
+.owner{
+    margin-left: 10px;
+    width: 75px;
+    height: 101px;
+  
+}
+
+.ownerInfo{
+    width: 75px;
+    height: 101 px;
+clear: both;
+text-align: center;
+
+font-size: 12px;
+    margin-left: 10px;
+}
+
+.ownerPic{
+    float: left;
+    width: 100px;
+    height: 110 px;
+}
+
+
+.bookNow{
+    font-family: 'Oleo Script', cursive;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    display:table-cell ;
+    height: 40px;
+    width: 40px;
+    background: #87CEEB;
+   
+}
+.book{
+    font-family: 'Oleo Script', cursive; 
+    font-size: 18px;
+}
+.buttonDiv{
+   
+float: left;
+margin-top: 10px;
+margin-left: 10px
+}
+.hotDeals{
+    font-family: 'Oleo Script', cursive; 
+    text-align: center;
+    font-size: 18px;
+}
+
+.clickHere1{
+    font-size: 18px;
+    font-family: 'Oleo Script', cursive; 
+    text-align: center;
+}
+
+.bookNow img{
+    height: 40px;
+    width: 40px;
+
+}
+
+
+.bookNow{
+
+	background:#87CEEB;
+	padding:5px 10px;
+	color:#fff;
+	border:none;
+	border-radius:5px;
+	
+	animation-name: flash;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+
+	/* //Firefox 1+ */
+	-webkit-animation-name: flash;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+
+	/* //Safari 3-4 */
+	-moz-animation-name: flash;
+	-moz-animation-duration: 1s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
+}
+
+@keyframes flash {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1.0; }
+}
+
+/* //Firefox 1+ */
+@-webkit-keyframes flash {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1.0; }
+}
+/* 
+//Safari 3-4 */
+@-moz-keyframes flash {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1.0; }
+}
+
+#travelGallery{
+    float: left;
+     margin-top: 5px;
+    margin-left: 10px
+  
+ }
+ 
+ .galleryName{
+     
+     margin-left: 5px;
+     
+ }
+ 
+ .galleryText{
+     margin-left: 10px;
+     font-family: 'Oleo Script', cursive;
+    font-size: 18px
+
+ }
+
+ .gallery img{
+    width: 75px;
+    padding :5px;
+    filter:grayscale(100%);
+    transition: 1s;
+
+}
+
+.usefulTitle{
+
+    font-size: 16px;
+}
+
+.usefulLinks{
+    float: left;
+    margin-left: 10px;
+    margin-top: 50px;
+    line-height: 30px;
+    font-family: 'Oleo Script', cursive;
+    font-size: 16px;
+}
+
+.clickHere{
+    text-align: center;
+    font-size: 16px;
+}
+
+.planning{
+font-size: 16px;
+    font-family: 'Oleo Script', cursive;
+}
+
+
+
 
 }
