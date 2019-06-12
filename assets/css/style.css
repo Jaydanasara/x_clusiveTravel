@@ -318,7 +318,10 @@ margin-top: 175px;
     margin-left: 15px
 }
 
-
+.tripLogo{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 .tripLogo img{
     width: 300px;
     height: 214px;
