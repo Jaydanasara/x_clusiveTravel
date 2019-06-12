@@ -63,23 +63,25 @@ font-size: 18px;
 
 #travelGallery{
    float: left;
-    margin-top: 4%;
+    margin-top: 80px;
    margin-left: 250px;
  
 }
 
 .galleryName{
-   
+   font-size: 36px;
     text-align: center
 }
 
 .galleryText{
     
     font-family: 'Oleo Script', cursive;
+    padding-bottom: 5px;
 }
 
 
 .clickme{
+    
    background: #E5E4E2;
     width: 100%;
     height: 50px;        
@@ -93,7 +95,7 @@ font-size: 18px;
 
 #about{
     
-    width:4%;
+    width:65;
     float:right;
     margin-top: 1.5%;
     border-right: solid grey;
@@ -103,7 +105,7 @@ font-size: 18px;
 
 #home{
     
-    width:3%;
+    width:60px;
     float:right;
     margin-top: 1.5%;
     border-right: solid grey;
@@ -117,7 +119,7 @@ font-size: 18px;
 
 #trips{
     
-    width:5%;
+    width:75px;
     float:right;
     border-right: solid grey;
     margin-top: 1.5%;
@@ -129,7 +131,7 @@ font-size: 18px;
 }
 #contact{
     
-    width:6%;
+    width: 85px;
     float: right;
     margin-top: 1.5%;
     padding-left: 4px;
@@ -155,6 +157,8 @@ font-size: 18px;
 }
 
 .signature{
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 36px;
     font-weight: 650;
     font-family: 'Pinyon Script', cursive;
@@ -179,13 +183,14 @@ font-size: 18px;
 }
 .book{
     font-family: 'Oleo Script', cursive; 
-    text-align: center
+    text-align: center;
+    padding-bottom: 5px;
 }
 .buttonDiv{
    
 float: left;
-margin-top: 70px;
-margin-left: 200px
+margin-top: 80px;
+margin-left: 80px
 }
 .hotDeals{
     font-family: 'Oleo Script', cursive; 
@@ -196,6 +201,10 @@ margin-left: 200px
 
     font-family: 'Oleo Script', cursive; 
     text-align: center;
+}
+
+.book{
+    font-size: 36px;
 }
 
 .bookNow{
@@ -242,13 +251,19 @@ margin-left: 200px
     50% { opacity: 0.5; }
     100% { opacity: 1.0; }
 }
+.usefulTitle{
+    font-size: 36px;
+    padding-bottom: 5px;
+}
+
 
 .usefulLinks{
     float: left;
     margin-left: 250px;
-    margin-top: 4%;
+    margin-top: 80px;
     line-height: 30px;
     font-family: 'Oleo Script', cursive;
+
 }
 
 .clickHere{
@@ -263,9 +278,11 @@ margin-left: 200px
 
 
 .nameInfo{
+    padding-top: 30px;
     text-align: center;
     font-size: 36px;
     font-weight: 400;
+    padding-bottom: 30px;
 
 }
 
@@ -277,6 +294,8 @@ margin-left: 200px
 }
 
 .ownerPic2{
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
 }
 
@@ -344,7 +363,7 @@ margin-top: 150px;
 
 }
 
-
+/* 
 
 @media screen and (max-width:768px){
     #contact{
@@ -483,9 +502,9 @@ margin-left: 10px
     width: 40px;
 
 }
+ */
 
-
-.bookNow{
+/* .bookNow{
 
 	background:#87CEEB;
 	padding:5px 10px;
@@ -496,41 +515,41 @@ margin-left: 10px
 	animation-name: flash;
 	animation-duration: 1s;
 	animation-timing-function: linear;
-	animation-iteration-count: infinite;
+	animation-iteration-count: infinite; */
 
 	/* //Firefox 1+ */
-	-webkit-animation-name: flash;
+	/* -webkit-animation-name: flash;
 	-webkit-animation-duration: 1s;
 	-webkit-animation-timing-function: linear;
-	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite; */
 
 	/* //Safari 3-4 */
-	-moz-animation-name: flash;
+	/* -moz-animation-name: flash;
 	-moz-animation-duration: 1s;
 	-moz-animation-timing-function: linear;
 	-moz-animation-iteration-count: infinite;
-}
+} */
 
-@keyframes flash {  
+/* @keyframes flash {  
     0% { opacity: 1.0; }
     50% { opacity: 0.5; }
     100% { opacity: 1.0; }
-}
+} */
 
 /* //Firefox 1+ */
-@-webkit-keyframes flash {  
+/* @-webkit-keyframes flash {  
     0% { opacity: 1.0; }
     50% { opacity: 0.5; }
     100% { opacity: 1.0; }
-}
+} */
 /* 
 //Safari 3-4 */
-@-moz-keyframes flash {  
+/* @-moz-keyframes flash {  
     0% { opacity: 1.0; }
     50% { opacity: 0.5; }
     100% { opacity: 1.0; }
-}
-
+} */
+/* 
 #travelGallery{
     float: left;
      margin-top: 5px;
@@ -586,4 +605,4 @@ font-size: 16px;
 
 
 
-}
+}   */
