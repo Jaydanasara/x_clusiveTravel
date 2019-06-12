@@ -258,8 +258,8 @@ margin-left: 80px
 
 
 .usefulLinks{
-    float: left;
-    margin-left: 250px;
+    float: right;
+    margin-right: 80px;
     margin-top: 80px;
     line-height: 30px;
     font-family: 'Oleo Script', cursive;
