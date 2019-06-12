@@ -1,4 +1,4 @@
-body{
+.pages{
 background:#E5E4E2;
 background-size: 100%;
 }
@@ -6,7 +6,7 @@ background-size: 100%;
 
 
 
-body{
+.pages{
     height:100%;
     width:100%;
     background-image:  url("../images/bambiBeach.jpg");
@@ -46,7 +46,7 @@ transform: scale(1.1)
     height: 300 px;
 clear: both;
 text-align: center;
-font-size: 14px;
+font-size: 18px;
     margin-left: 105px;
 }
 
@@ -55,6 +55,11 @@ font-size: 14px;
     width: 300px;
     height: 300 px;
 }
+
+.galleryPictures{
+    background-color: cornflowerblue
+}
+
 
 #travelGallery{
    float: left;
@@ -155,6 +160,11 @@ font-size: 14px;
     font-family: 'Pinyon Script', cursive;
 }
 
+
+.bookNow img{
+    height: 214px;
+    width: 300px;
+}
 
 .bookNow{
     font-family: 'Oleo Script', cursive;
@@ -278,7 +288,7 @@ margin-left: 200px
 }
 
 .tripPics{
-margin-top: 300px;
+margin-top: 175px;
 
 }
 
@@ -292,7 +302,7 @@ margin-top: 300px;
 
 .tripLogo img{
     width: 300px;
-    height: 226px;
+    height: 214px;
     
     }
 
