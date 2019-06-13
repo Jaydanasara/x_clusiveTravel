@@ -193,7 +193,7 @@ font-size: 18px;
 }
 
 .companyName3{
-    
+    padding-left: 10px;
     font-family: 'Oleo Script', cursive;
     font-size: 36px;
 }
@@ -328,6 +328,13 @@ margin-left: 80px
 
 }
 
+.information{
+    padding-top:  60px ;
+}
+
+
+
+
 .owner2{
     
     width: 225px;
@@ -360,6 +367,21 @@ margin-top: 175px;
     
     margin-left: 15px
 }
+
+.aboutLogo{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.aboutLogo img{
+    width: 300px;
+    height: 214px;
+    
+    }
+
+
+
 
 .tripLogo{
     padding-left: 60px;
