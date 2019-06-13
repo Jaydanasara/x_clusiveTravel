@@ -48,16 +48,6 @@ top:7px;
 }
 
 
-nav{
- position: absolute;
- text-align: left;
- top: 100%;
- left: 0;
- background: #E5E4E2;
-transform: scale(1,0);
-transform-origin: top;
-transition: transform 400ms ease-in;
-}
 
 nav ul{
     margin:0;
@@ -448,20 +438,6 @@ nav{
 
 }
 
-nav{
-    position: unset;
-    text-align: unset;
-    top: unset;
-    left:unset;
-    background:unset;
-   transform: unset;
-   transform-origin: unset;
-   transition: unset;
-   }
-   
-
-
-
 
 
 
@@ -501,6 +477,20 @@ nav a:hover::before{
 }
 }
 
+@media screen and (max-width:801){
+
+nav{
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    background: #E5E4E2;
+   transform: scale(1,0);
+   transform-origin: top;
+   transition: transform 400ms ease-in;
+   }
+   
+}
 
 /* 
 
