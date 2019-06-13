@@ -1,3 +1,108 @@
+
+
+
+
+header{
+    height: 50px;
+    background: #E5E4E2;;
+    text-align: center;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+.nav-toggle{
+    display: none
+}
+
+.nav-toggle-label{
+    position: absolute;
+    top: -10px;
+    left: 0;
+    margin: 1em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after{
+    display: block;
+    background: white;
+    height: 2px;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
+}
+.nav-toggle-label span::before,
+.nav-toggle-label span::after{
+content: "";
+position: absolute;
+}
+.nav-toggle-label span::before{
+bottom: 7px;
+}
+.nav-toggle-label span::after{
+top:7px;
+}
+
+
+nav{
+ position: absolute;
+ text-align: left;
+ top: 100%;
+ left: 0;
+ background: #E5E4E2;
+transform: scale(1,0);
+transform-origin: top;
+transition: transform 400ms ease-in;
+}
+
+nav ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+
+}
+
+nav li{
+    margin-left: 1em;
+    margin-bottom: 1em;
+
+}
+
+nav a {
+    
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform:uppercase;
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+}
+
+
+nav a:hover{
+    color:red;
+}
+
+.nav-toggle:checked~nav{
+
+transform: scale(1,1)
+
+}
+
+.nav-toggle:checked ~ nav a{
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+}
+
+
+
+
+
+
+
 .pages{
 background:#E5E4E2;
 background-size: 100%;
@@ -18,7 +123,7 @@ background-size: 100%;
 .companyName{
     font-family: 'Oleo Script', cursive;
     font-size: 36px;
-    padding-top: 10px;
+    padding-top: 60px;
     margin-left: 15px
 }
 
@@ -80,69 +185,15 @@ font-size: 18px;
 }
 
 
-.clickme{
-    
-   background: #E5E4E2;
-    width: 100%;
-    height: 50px;        
-}
-
-.clickme a:hover{
-    color: red;
-}
 
 
-
-#about{
-    
-    width:65;
-    float:right;
-    margin-top: 1.5%;
-    border-right: solid grey;
-    padding-left: 4px;
-    padding-right: 10px;
-}
-
-#home{
-    
-    width:60px;
-    float:right;
-    margin-top: 1.5%;
-    border-right: solid grey;
-   
-    padding-right: 4px;
-}
-
-
-
-
-
-#trips{
-    
-    width:75px;
-    float:right;
-    border-right: solid grey;
-    margin-top: 1.5%;
-    padding-left: 4px;
-
-}   
-.clickme a:hover{
-    color: red;
-}
-#contact{
-    
-    width: 85px;
-    float: right;
-    margin-top: 1.5%;
-    padding-left: 4px;
-    margin-right: 300px;
-}
 
 .contactInfo{
 
     margin-right: 300px
 }
 .aboutMessage{
+    padding-top: 60px;
     font-size: 18px;
     line-height: 30px;
     font-weight: 400;
@@ -152,6 +203,7 @@ font-size: 18px;
 }
 
 .companyName3{
+    
     font-family: 'Oleo Script', cursive;
     font-size: 36px;
 }
@@ -278,7 +330,7 @@ margin-left: 80px
 
 
 .nameInfo{
-    padding-top: 30px;
+    padding-top: 70px;
     text-align: center;
     font-size: 36px;
     font-weight: 400;
@@ -312,9 +364,10 @@ margin-top: 175px;
 }
 
 .companyTrip{
+    padding-top: 60px;
     font-family: 'Oleo Script', cursive;
     font-size: 40px;
-    padding-top: 10px;
+    
     margin-left: 15px
 }
 
@@ -365,6 +418,72 @@ margin-top: 150px;
     
 
 }
+
+
+@media screen and (min-width:800px){
+    .nav-toggle-label{
+
+        display: none;
+    }
+
+
+    header{
+        display: grid;
+        grid-template-columns: 1fr auto minmax(600px,3fr) 1fr
+    
+    }
+    
+    .logo{
+        grid-column: 2/3;
+    
+    }
+    
+nav{
+    all:unset;
+    grid-column: 3/4;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+nav li {
+    margin-bottom: 0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+
+nav a{
+   opacity: 1;
+   position: relative;
+}
+
+nav a:before{
+    content: "";
+    display: block;
+    height: 5px;
+    background: #000;
+    position: absolute;
+    top: -.75em;
+    left: 0;
+     right: 0;
+     transform: scale(0,1);
+     transform-origin: left;
+     transition: transform ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    transform: scale(1,1)
+}
+}
+
 
 /* 
 
