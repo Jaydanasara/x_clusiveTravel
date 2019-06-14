@@ -304,8 +304,9 @@ text-align: center;
     line-height: 30px;
     font-weight: 400;
     margin-left: 100px;
-    margin-right: 700px;
+    padding-right: 30px;
     margin-top: 40px;
+    padding-bottom: 20px;
 }
 
 .companyName3{
@@ -335,7 +336,7 @@ text-align: center;
 }
 
 .information{
-    padding-top:  60px ;
+    padding-top:  150px ;
 }
 
 
@@ -528,5 +529,33 @@ nav{
     .lilBox{
         grid-template-columns: repeat(auto-fit,350px);
     }
+
+
+    .aboutLogo img{
+        width: 200px;
+        height: 143px;
+        
+        }
+
+
+        .companyName3{
+            padding-left: 2px;
+            font-family: 'Oleo Script', cursive;
+            font-size: 30px;
+        }
+
+        .aboutMessage{
+            padding-top: 60px;
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 400;
+            margin-left:0;
+            padding-left: 5px;
+            padding-right: 5px;
+            margin-top: 40px;
+
+        }
+
+
        
 }
