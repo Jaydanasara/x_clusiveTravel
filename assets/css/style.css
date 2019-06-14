@@ -151,35 +151,152 @@ font-size: 18px;
     height: 300 px;
 }
 
+
+
+
 .galleryPictures{
     background-color: cornflowerblue
 }
 
 
-#travelGallery{
-   float: left;
-    margin-top: 80px;
-   margin-left: 250px;
- 
-}
-
-.galleryName{
-   font-size: 36px;
-    text-align: center
-}
-
-.galleryText{
+.lilBox{
     
-    font-family: 'Oleo Script', cursive;
-    padding-bottom: 5px;
-}
+    padding-top: 100px;
 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    
+    
+    }
+    
+    .buttonDiv{
+        justify-self: center;
+        padding-bottom: 20px;
+    
+    }
+    
+    .book{
+        padding-top: 10px;
+        text-align: center;
+        font-family: 'Oleo Script', cursive; 
+        font-size: 36px;
+    }
+    
+    
+    .image2 img{
+        width: 100% 
+    }
+    .bookNow{  
+        border-radius: 5px;
+        text-align: center;
+        vertical-align: middle;
+        display:table-cell ;
+    }
+    
+    .bookNow{
+        background:#87CEEB;
+        padding:5px 10px;
+        color:#fff;
+        border:none;
+        border-radius:5px;
+        
+        animation-name: flash;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    
+        /* //Firefox 1+ */
+        -webkit-animation-name: flash;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+    
+        /* //Safari 3-4 */
+        -moz-animation-name: flash;
+        -moz-animation-duration: 1s;
+        -moz-animation-timing-function: linear;
+        -moz-animation-iteration-count: infinite;
+    }
+    
+    @keyframes flash {  
+        0% { opacity: 1.0; }
+        50% { opacity: 0.5; }
+        100% { opacity: 1.0; }
+    }
+    
+    /* //Firefox 1+ */
+    @-webkit-keyframes flash {  
+        0% { opacity: 1.0; }
+        50% { opacity: 0.5; }
+        100% { opacity: 1.0; }
+    }
+    /* 
+    //Safari 3-4 */
+    @-moz-keyframes flash {  
+        0% { opacity: 1.0; }
+        50% { opacity: 0.5; }
+        100% { opacity: 1.0; }
+    }
+    
+    
+    .bookNow img {
+      
+            height: 214px;
+            width: 300px;
+        
+    }
+    
+    .hotDeals{
+        text-align: center;
+        font-family: 'Oleo Script', cursive; 
+        font-size: 36px;
+        
+    }
+    .gallery{
+        justify-self: center;
+    }
+    
+    
+    .galleryText{
+        padding-top: 10px;
+        text-align: center;
+        font-size: 36px;
+        font-family: 'Oleo Script', cursive;
+        padding-bottom: 5px;
+    
+    }
+    
+    .usefulTitle{
+        
+        font-size: 36px;
+        padding-bottom: 5px;
+    }
+    
+    
+    .usefulLinks{
+        padding-top: 10px;
+       justify-self: center;
+        line-height: 30px;
+        font-family: 'Oleo Script', cursive;
+    
+    }
+    
+    .clickHere{
+        font-size: 24px;
+    }
+    
+    .planning{
+    
+        font-size: 24px;
+    }
 
 
 
 
 .contactInfo{
 padding-top: 200px;
+text-align: center;
 }
 .aboutMessage{
     padding-top: 60px;
@@ -205,116 +322,6 @@ padding-top: 200px;
     font-family: 'Pinyon Script', cursive;
 }
 
-
-.bookNow img{
-    height: 214px;
-    width: 300px;
-}
-
-.bookNow{
-    font-family: 'Oleo Script', cursive;
-    border-radius: 5px;
-    text-align: center;
-    vertical-align: middle;
-    display:table-cell ;
-    height: 150px;
-    width: 150px;
-    background: #87CEEB;
-   
-}
-.book{
-    font-family: 'Oleo Script', cursive; 
-    text-align: center;
-    padding-bottom: 5px;
-}
-.buttonDiv{
-   
-float: left;
-margin-top: 80px;
-margin-left: 80px
-}
-.hotDeals{
-    font-family: 'Oleo Script', cursive; 
-    text-align: center;
-}
-
-.clickHere1{
-
-    font-family: 'Oleo Script', cursive; 
-    text-align: center;
-}
-
-.book{
-    font-size: 36px;
-}
-
-.bookNow{
-	background:#87CEEB;
-	padding:5px 10px;
-	color:#fff;
-	border:none;
-	border-radius:5px;
-	
-	animation-name: flash;
-	animation-duration: 1s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
-
-	/* //Firefox 1+ */
-	-webkit-animation-name: flash;
-	-webkit-animation-duration: 1s;
-	-webkit-animation-timing-function: linear;
-	-webkit-animation-iteration-count: infinite;
-
-	/* //Safari 3-4 */
-	-moz-animation-name: flash;
-	-moz-animation-duration: 1s;
-	-moz-animation-timing-function: linear;
-	-moz-animation-iteration-count: infinite;
-}
-
-@keyframes flash {  
-    0% { opacity: 1.0; }
-    50% { opacity: 0.5; }
-    100% { opacity: 1.0; }
-}
-
-/* //Firefox 1+ */
-@-webkit-keyframes flash {  
-    0% { opacity: 1.0; }
-    50% { opacity: 0.5; }
-    100% { opacity: 1.0; }
-}
-/* 
-//Safari 3-4 */
-@-moz-keyframes flash {  
-    0% { opacity: 1.0; }
-    50% { opacity: 0.5; }
-    100% { opacity: 1.0; }
-}
-.usefulTitle{
-    font-size: 36px;
-    padding-bottom: 5px;
-}
-
-
-.usefulLinks{
-    float: right;
-    margin-right: 80px;
-    margin-top: 80px;
-    line-height: 30px;
-    font-family: 'Oleo Script', cursive;
-
-}
-
-.clickHere{
-    
-}
-
-.planning{
-
-    font-family: 'Oleo Script', cursive;
-}
 
 
 
@@ -499,7 +506,7 @@ nav a:hover::before{
 }
 }
 
-@media screen and (max-width:801){
+@media screen and (max-width:801px){
 
 nav{
     position: absolute;
@@ -514,246 +521,12 @@ nav{
    
 }
 
-/* 
 
-@media screen and (max-width:768px){
-    #contact{
-        width:6%;
-    float: right;
-    margin-top: 1.5%;
-    padding-left: 2px;
-    margin-right: 0px;
-        
+
+@media screen and (max-width:854px){
+
+    .lilBox{
+        grid-template-columns: repeat(auto-fit,350px);
     }
-  #trips{
-  
-  }
- #about{
-  
-    
-        width:60px;
-        margin-left: 50px;
-        float: none;
-        margin-top: 1.5%;
-        border-right: none;
-        padding-left: 0;
-        padding-right: 0px;
-    
-
- }
-#home{
-    float: left;
-height: 16px;
-width:50px;
-padding-right: 0px;
-    margin-top: 0px;
-   
-    border-right: none
-   ;
+       
 }
-    
-    
-    
-
-
-
-
-
-
-
-    body{
-        width:350px;
-
-
-  height:640px;
-    
-  
-    background-size: 350px 300px;
-
-
-    }
-
-.clickme{
-    width: 343px;
-}
-.Nav{
-
-    width: 343px;
-}
-
-
-.companyName{
-    font-family: 'Oleo Script', cursive;
-    font-size: 18px;
-    padding-top: 5px;
-    margin-left: 1px
-}
-
-
-.owner{
-    margin-left: 10px;
-    width: 75px;
-    height: 101px;
-  
-}
-
-.ownerInfo{
-    width: 75px;
-    height: 101 px;
-clear: both;
-text-align: center;
-
-font-size: 12px;
-    margin-left: 10px;
-}
-
-.ownerPic{
-    float: left;
-    width: 100px;
-    height: 110 px;
-}
-
-
-.bookNow{
-    font-family: 'Oleo Script', cursive;
-    font-size: 18px;
-    border-radius: 5px;
-    text-align: center;
-    vertical-align: middle;
-    display:table-cell ;
-    height: 40px;
-    width: 40px;
-    background: #87CEEB;
-   
-}
-.book{
-    font-family: 'Oleo Script', cursive; 
-    font-size: 18px;
-}
-.buttonDiv{
-   
-float: left;
-margin-top: 10px;
-margin-left: 10px
-}
-.hotDeals{
-    font-family: 'Oleo Script', cursive; 
-    text-align: center;
-    font-size: 18px;
-}
-
-.clickHere1{
-    font-size: 18px;
-    font-family: 'Oleo Script', cursive; 
-    text-align: center;
-}
-
-.bookNow img{
-    height: 40px;
-    width: 40px;
-
-}
- */
-
-/* .bookNow{
-
-	background:#87CEEB;
-	padding:5px 10px;
-	color:#fff;
-	border:none;
-	border-radius:5px;
-	
-	animation-name: flash;
-	animation-duration: 1s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite; */
-
-	/* //Firefox 1+ */
-	/* -webkit-animation-name: flash;
-	-webkit-animation-duration: 1s;
-	-webkit-animation-timing-function: linear;
-	-webkit-animation-iteration-count: infinite; */
-
-	/* //Safari 3-4 */
-	/* -moz-animation-name: flash;
-	-moz-animation-duration: 1s;
-	-moz-animation-timing-function: linear;
-	-moz-animation-iteration-count: infinite;
-} */
-
-/* @keyframes flash {  
-    0% { opacity: 1.0; }
-    50% { opacity: 0.5; }
-    100% { opacity: 1.0; }
-} */
-
-/* //Firefox 1+ */
-/* @-webkit-keyframes flash {  
-    0% { opacity: 1.0; }
-    50% { opacity: 0.5; }
-    100% { opacity: 1.0; }
-} */
-/* 
-//Safari 3-4 */
-/* @-moz-keyframes flash {  
-    0% { opacity: 1.0; }
-    50% { opacity: 0.5; }
-    100% { opacity: 1.0; }
-} */
-/* 
-#travelGallery{
-    float: left;
-     margin-top: 5px;
-    margin-left: 10px
-  
- }
- 
- .galleryName{
-     
-     margin-left: 5px;
-     
- }
- 
- .galleryText{
-     margin-left: 10px;
-     font-family: 'Oleo Script', cursive;
-    font-size: 18px
-
- }
-
- .gallery img{
-    width: 75px;
-    padding :5px;
-    filter:grayscale(100%);
-    transition: 1s;
-
-}
-
-.usefulTitle{
-
-    font-size: 16px;
-}
-
-.usefulLinks{
-    float: left;
-    margin-left: 10px;
-    margin-top: 50px;
-    line-height: 30px;
-    font-family: 'Oleo Script', cursive;
-    font-size: 16px;
-}
-
-.clickHere{
-    text-align: center;
-    font-size: 16px;
-}
-
-.planning{
-font-size: 16px;
-    font-family: 'Oleo Script', cursive;
-}
-
-
-
-
-}   */
