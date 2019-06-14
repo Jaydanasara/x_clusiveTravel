@@ -363,8 +363,11 @@ text-align: center;
 }
 
 .tripPics{
-margin-top: 175px;
-
+padding-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    
 }
 
 .companyTrip{
@@ -405,39 +408,35 @@ margin-top: 175px;
 text-align: center;
 font-family: 'Oleo Script', cursive;
 font-size: 36px
+
     }
 
-.life{
-    float: left;
-margin-left: 250px
+    .upcominEvents img{
+        padding-top: 100px;
+    }
 
+
+ .life{
+    justify-self: center;
+
+}
+
+.life div{
+
+    padding-bottom: 20px;
 }
 
 .discover{
-    float: right;
-   margin-right: 250px
+    justify-self: center;
+
     }
 
-.wicked{
-text-align: center;
-position: relative;
-top:220px;
+.discover div{
+    padding-bottom: 20px;
 }
-.pool1{
-margin-left: 250px;
-margin-top: 150px;
-float: left;
-
-}
-
-.pool2{
-margin-right: 250px;
-float: right;
-margin-top: 150px;
-
     
 
-}
+
 
 
 @media screen and (min-width:800px){
@@ -559,3 +558,49 @@ nav{
 
        
 }
+
+
+@media screen and (max-width:730px){
+
+
+
+    .life{ grid-area: life; }
+    .discover{ grid-area: discover; }
+    .upcominEvents{ grid-area: upcomingEvents; }
+
+    .tripPics{
+        padding-top: 75px;
+        grid-template-columns: repeat(auto-fit,250px);
+        grid-template-areas:
+         "upcomingEvents"
+         "life"
+         "discover"
+    }
+
+    .upcominEvents img{
+        padding-top: 25px;
+    }
+
+    .tripLogo img{
+        width: 200px;
+        height: 143px;
+        
+        }
+
+        .tripLogo{
+            padding-left: 10px;
+           
+        }
+
+        .companyTrip{
+            padding-top: 60px;
+            font-family: 'Oleo Script', cursive;
+            font-size: 40px;
+            padding-left: 10px;
+            
+        }
+
+}
+
+   
+
