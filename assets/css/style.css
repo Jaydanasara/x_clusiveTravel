@@ -525,6 +525,21 @@ nav{
 
 @media screen and (max-width:854px){
 
+
+    .owner{
+        margin-left: 0px;
+      padding-left: 20px;
+      
+    }
+    
+    .ownerInfo{
+        
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+    
+
+
     .lilBox{
         grid-template-columns: repeat(auto-fit,350px);
     }
