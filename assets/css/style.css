@@ -160,18 +160,20 @@ font-size: 18px;
 
 
 .lilBox{
+
+  
     
     padding-top: 100px;
 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-    
+    display:flex;
+    flex-wrap: wrap;
     
     }
     
     .buttonDiv{
-        justify-self: center;
+        width: 30vw;
+        margin: 1.5vw;
+   
         padding-bottom: 20px;
     
     }
@@ -190,12 +192,11 @@ font-size: 18px;
     .bookNow{  
         border-radius: 5px;
         text-align: center;
-        vertical-align: middle;
-        display:table-cell ;
+       
     }
     
     .bookNow{
-        background:#87CEEB;
+       
         padding:5px 10px;
         color:#fff;
         border:none;
@@ -254,7 +255,9 @@ font-size: 18px;
         
     }
     .gallery{
-        justify-self: center;
+        width: 30vw;
+        margin: 1.5vw;
+        text-align: center;
     }
     
     
@@ -275,8 +278,10 @@ font-size: 18px;
     
     
     .usefulLinks{
+        width: 25vw;
+        margin: 1.5vw;
         padding-top: 10px;
-       justify-self: center;
+       text-align: center;
         line-height: 30px;
         font-family: 'Oleo Script', cursive;
     
@@ -364,9 +369,8 @@ text-align: center;
 
 .tripPics{
 padding-top: 200px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
+display:flex;
+flex-wrap: wrap;
     
 }
 
@@ -417,8 +421,9 @@ font-size: 36px
 
 
  .life{
-    justify-self: center;
-
+    text-align: center;
+    width: 30vw;
+    margin: 1.5vw;
 }
 
 .life div{
@@ -427,7 +432,9 @@ font-size: 36px
 }
 
 .discover{
-    justify-self: center;
+   text-align: center;
+   width: 30vw;
+   margin: 1.5vw;
 
     }
 
@@ -540,9 +547,7 @@ nav{
     
 
 
-    .lilBox{
-        grid-template-columns: repeat(auto-fit,350px);
-    }
+  
 
 
     .aboutLogo img{
@@ -579,18 +584,6 @@ nav{
 
 
 
-    .life{ grid-area: life; }
-    .discover{ grid-area: discover; }
-    .upcominEvents{ grid-area: upcomingEvents; }
-
-    .tripPics{
-        padding-top: 75px;
-        grid-template-columns: repeat(auto-fit,250px);
-        grid-template-areas:
-         "upcomingEvents"
-         "life"
-         "discover"
-    }
 
     .upcominEvents img{
         padding-top: 25px;
@@ -618,4 +611,91 @@ nav{
 }
 
    
+@supports (display: grid){
+.lilBox{
 
+    padding-top: 100px;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    
+}
+
+.gallery{
+   width: initial;
+    margin: initial;
+    justify-self: center;
+}
+
+.buttonDiv{
+   
+    justify-self: center;
+    padding-bottom: 20px;
+    width: initial;
+    margin: initial;
+
+}
+.usefulLinks{
+    width: initial;
+    margin: initial;
+    padding-top: 10px;
+   justify-self: center;
+    line-height: 30px;
+    font-family: 'Oleo Script', cursive;
+    
+
+}
+
+.tripPics{
+    padding-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+        
+}
+
+
+.life{
+    justify-self: center;
+    width: initial;
+    margin: initial;
+}
+
+
+.discover{
+    justify-self: center;
+    width: initial;
+    margin: initial;
+    }
+
+
+
+@media screen and (max-width:854px){
+.lilBox{
+    grid-template-columns: repeat(auto-fit,350px);
+}
+
+}
+
+
+@media screen and (max-width:730px){
+
+
+
+    .life{ grid-area: life; }
+    .discover{ grid-area: discover; }
+    .upcominEvents{ grid-area: upcomingEvents; }
+
+    .tripPics{
+        padding-top: 75px;
+        grid-template-columns: repeat(auto-fit,250px);
+        grid-template-areas:
+         "upcomingEvents"
+         "life"
+         "discover"
+    }
+
+}
+
+}
